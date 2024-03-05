@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/citas', function () {
     return view('appointment');
-});
+})->name('citas');
 
 Route::get('/dashboard', function () {
     return redirect()->route('patients');

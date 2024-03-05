@@ -12,6 +12,7 @@
             'config' => 'Configuración',
             'backup_instructions' => 'Instrucciones',
             'test' => 'Prueba',
+            'citas' => 'Citas',
             '' => 'Cultura de la Paz',
         ];
         $route = Route::currentRouteName();
